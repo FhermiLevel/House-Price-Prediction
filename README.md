@@ -78,6 +78,26 @@ Overall, XGBoost provided the best balance between predictive accuracy, model st
 
 ---
 
+**SHAP Summary Plot Interpretation**
+
+To better understand the decision-making process of the model, I applied SHAP (SHapley Additive Explanations), which provides transparent, model-agnostic interpretability.
+
+The SHAP summary plot highlights the most influential features driving house price predictions:
+
+OverallQual, GrLivArea, YearBuilt, TotalBsmtSF, and 1stFlrSF are the strongest contributors to the model’s output.
+
+Each point in the plot represents the impact of a feature for a single house in the dataset.
+
+Red points indicate higher feature values, while blue points represent lower values.
+
+Features with red points far to the right (e.g., OverallQual and GrLivArea) show that higher values of these features significantly increase predicted sale prices.
+
+Conversely, blue points on the left indicate low values that reduce the predicted sale price.
+
+The SHAP summary plot not only confirms the model’s learned patterns but also aligns with real-world expectations—for example, houses with higher quality ratings, newer construction, and larger living areas consistently sell at higher prices. This interpretability step ensures that the model is behaving reasonably and provides valuable insights for both stakeholders and end users.
+
+---
+
 **Final Decision:**
 
 The XGBoost Regressor is selected as the final model for this project due to its superior accuracy, lower error rates, and stronger performance under cross-validation
