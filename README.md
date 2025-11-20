@@ -4,7 +4,7 @@ A document to show prediction of sales price for each house
 ---
 ### Model Evaluation and Selection
 
-To identify the most effective model for predicting fraud-related outcomes, I evaluated both the XGBoost Regressor and the Random Forest Regressor using multiple metrics before tuning, after tuning, and during cross-validation. The goal was to determine which model consistently produced a higher level of predictive accuracy, lower error, and stronger generalization performance.
+To identify the most effective model for prediction of priice if houses, I evaluated both the XGBoost Regressor and the Random Forest Regressor using multiple metrics before tuning, after tuning, and during cross-validation. The goal was to determine which model consistently produced a higher level of predictive accuracy, lower error, and stronger generalization performance.
 
 ---
 
@@ -40,7 +40,7 @@ Random Forest also improved after tuning, but the magnitude of the improvement w
 
 **2. Cross-Validation Results**
 
-To further ensure that the model results were consistent and not the product of overfitting, I applied k-fold cross-validation using both RMSE and R² Score as evaluation metrics.
+To further ensure that the model results were consistent and not the product of overfitting, I applied cross-validation using both RMSE and R² Score as evaluation metrics.
 
 On RMSE
 
