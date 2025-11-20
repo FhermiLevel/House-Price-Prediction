@@ -94,7 +94,7 @@ Features with red points far to the right (e.g., OverallQual and GrLivArea) show
 
 Conversely, blue points on the left indicate low values that reduce the predicted sale price.
 
-The SHAP summary plot not only confirms the model’s learned patterns but also aligns with real-world expectations—for example, houses with higher quality ratings, newer construction, and larger living areas consistently sell at higher prices. This interpretability step ensures that the model is behaving reasonably and provides valuable insights for both stakeholders and end users.
+The SHAP summary plot not only confirms the model’s learned patterns but also aligns with real-world expectations,for example, houses with higher quality ratings, newer construction, and larger living areas consistently sell at higher prices. This interpretability step ensures that the model is behaving reasonably and provides valuable insights for both stakeholders and end users.
 
 ---
 
